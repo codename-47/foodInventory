@@ -1,4 +1,4 @@
-"""project1 URL Configuration
+"""django-learn URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.10/topics/http/urls/
@@ -20,6 +20,5 @@ urlpatterns = [
 	# ex: /app1/
 	url(r'^app1/', include('app1.urls')),
 	# ex /admin/
-    url(r'^admin/', admin.site.urls),
-    
+    url(r'^admin/', admin.site.urls), 
 ]
